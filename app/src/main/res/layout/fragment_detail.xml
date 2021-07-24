@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailFragment">
+
+    <TextView
+        android:id="@+id/star_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/StarSignTextViewHeader"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:text="Aquarius"
+        />
+
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/StarSignTextView"
+        tools:text="Water Carrier"
+        />
+
+    <TextView
+        android:id="@+id/date_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/StarSignTextView"
+        tools:text="Date Range: January 20 - February 18"
+        />
+
+</LinearLayout>

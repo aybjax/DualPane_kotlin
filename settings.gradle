@@ -1,0 +1,2 @@
+rootProject.name = "DualPane"
+include ':app'
